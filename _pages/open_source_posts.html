@@ -1,0 +1,11 @@
+---
+layout: archive
+permalink: /open_source_contributions/
+author_profile: true
+---
+<p>Here are all the posts</p>
+
+{% assign ossPosts = site.posts | where_exp: "item", "item.hidden != true" | where_exp: "item", "item.c%}
+{% for post in ossPosts %}
+<h1>{{post.name}}</h1>
+{% endfor %}
