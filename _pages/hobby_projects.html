@@ -7,7 +7,7 @@ author_profile: true
 
 {% assign ossPosts = site.posts | where_exp: "item", "item.hidden != true" %}
 {% for post in ossPosts %}
-  {% if post.category == "project" %}
+  {% if post.category == "Project" %}
     {% include archive-single.html type=entries_layout %}
   {% endif %}
 {% endfor %}
