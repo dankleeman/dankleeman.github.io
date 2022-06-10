@@ -107,9 +107,9 @@ analytics:
 author:
   name             : "Daniel Kleeman"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : ""
   location         : "Chicago"
-  email            :
+  email            : "dan.kleeman@pm.me"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
