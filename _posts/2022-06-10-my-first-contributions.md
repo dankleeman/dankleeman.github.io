@@ -2,6 +2,7 @@
 title: "My First Contributions"
 categories:
   - Open Source Contribution
+category: oss
 ---
 This post will detail my first two open-source contributions to scipy.
 
