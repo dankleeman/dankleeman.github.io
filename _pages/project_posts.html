@@ -1,0 +1,12 @@
+---
+layout: archive
+permalink: /hobby_projects/
+author_profile: true
+---
+<p>Here are all the posts</p>
+
+{% assign ossPosts = site.posts | where_exp: "item", "item.hidden != true" %}
+{% for post in ossPosts %}
+  {% if post.category == "project" %}
+    {% include archive-single.html type=entries_layout %}
+{% endfor %}
