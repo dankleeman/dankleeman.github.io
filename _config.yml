@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Daniel Kleeman"
   avatar           : # "/assets/images/stan.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  bio              : "I currently work at Shipt as a Senior Data Scientist on the Partner Experience ML team. My current efforts focus on NLP projects that drive the enrichment of our product catalog. "
   location         : "Chicago"
   email            : "dan.kleeman@pm.me"
   links:
