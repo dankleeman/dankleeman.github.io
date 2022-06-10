@@ -1,5 +1,5 @@
 ---
 title: "Subreddit Algebra"
-category: project
+category: Project
 ---
 This post will detail my subreddit algebra project.
