@@ -1,12 +1,10 @@
 # main links
 main:
-#   - title: "About"
-#     url: /about/
-#   - title: "Sample Posts"
-#     url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-#   - title: "Sitemap"
-#     url: /sitemap/
+  - title: "Sitemap"
+    url: /sitemap/
+  - title: "Hobby Projects"
+    url: /hobby_projects/
+  - title: "Open Source Contributions"
+    url: /open_source_contributions/
   - title: "Resume"
     url: /kleeman_resume.pdf
