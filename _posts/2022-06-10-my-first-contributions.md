@@ -1,7 +1,7 @@
 ---
 title: "My First Contributions"
 categories:
-  - Open Source
+  - Open_Source
 ---
 
 # Background
