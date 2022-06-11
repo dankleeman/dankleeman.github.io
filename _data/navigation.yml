@@ -4,6 +4,8 @@ main:
     url: /hobby_projects/
   - title: "Open Source Contributions"
     url: /open_source_contributions/
+  - title: "About"
+    url: /about/
   - title: "Resume"
     url: /kleeman_resume.pdf
 #   - title: "Sitemap"
