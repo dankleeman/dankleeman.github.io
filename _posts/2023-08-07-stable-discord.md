@@ -1,9 +1,7 @@
-
 ---
 title: "Stable Discord"
 category: "Hobby Projects"
 ---
-
 Repository: [https://github.com/dankleeman/stable-discord](https://github.com/dankleeman/stable-discord)
 # Background
 Earlier this year I got really into the whirlwind of generative AI as stable diffusion made it a lot more accessible for consumer hardware. I had initially started out with Midjourney but between the cost of that service and the occasional service outage I wanted something that ran on hardware I controlled. Further, not all of my friends wanted to pay for Midjourney but I really enjoyed the collaborative aspect of the service. When Midjourney was making that one of their big selling points I was initially skeptical of how important it would be, but after just one evening of bouncing ideas off of my friends I was sold.
