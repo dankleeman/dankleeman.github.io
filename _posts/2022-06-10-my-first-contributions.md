@@ -19,12 +19,12 @@ The pandas mean and standard deviation methods skip missing values by default, b
 
 That night I went home and read through the scipy documentation about how to contribute. It was a small change, but it felt cool to organically find something to improve and submit that to the community. I got some basic feedback about style and the unit tests and overall it was very straightforward.
 
-https://github.com/scipy/scipy/pull/10843
+[PR to add nan_policy to stats.zsores](https://github.com/scipy/scipy/pull/10843)
 
 # My second contribution
 
 After having my first experience, I came across a similar issue a few months later I decided to make a similar change. This time it was for the windsorize function.
 
-https://github.com/scipy/scipy/pull/11619
+[PR to add nan_policy to stats.mstats.winsorize](https://github.com/scipy/scipy/pull/11619)
 
 I mainly focused here on my experience of making a first contribution becuase of how light the actual problem is on details. Recalling this experience has reminded me of how much I enjoyed it and that I want to make a habit of contributing to open source going forward.
