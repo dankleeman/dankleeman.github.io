@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Hobby Projects"
+    url: /hobby_projects/
+  - title: "Open Source Contributions"
+    url: /open_source_contributions/
+  - title: "About"
+    url: /about/
+  - title: "Resume"
+    url: /kleeman_resume.pdf
+#   - title: "Sitemap"
+#     url: /sitemap/

@@ -1,0 +1,14 @@
+---
+layout: archive
+permalink: /open_source_contributions/
+author_profile: true
+---
+
+<h1>Open Source Contributions</h1>
+
+{% assign ossPosts = site.posts | where_exp: "item", "item.hidden != true" %}
+{% for post in ossPosts %}
+  {% if post.category == "Open Source" %}
+    {% include archive-single.html type=entries_layout %}
+  {% endif %}
+{% endfor %}
