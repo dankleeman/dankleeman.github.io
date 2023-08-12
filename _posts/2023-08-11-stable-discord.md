@@ -18,7 +18,7 @@ I think the example behavior section does a good job of showing the behavior: ht
 
 The first basic example shows the request with the `/art` wake word and the emoji reactions the bot uses to acknowledge and communicate progress to the user. 
 
-![basic_example.png](https://github.com/dankleeman/stable-discord/blob/main/assets/basic_example.png)
+![basic_example.png](https://github.com/dankleeman/stable-discord/raw/main/assets/basic_example.png)
 
 
 The second example shows what kind of results you can get with a more stylized prompt even with the default parameters.
@@ -27,7 +27,7 @@ The second example shows what kind of results you can get with a more stylized p
 
 The final example shows how the bot parses arguments in the style of command line commands to allow tweaking of parameters.
 
-![params_example.png](https://github.com/dankleeman/stable-discord/blob/main/assets/params_example.png)
+![params_example.png](https://github.com/dankleeman/stable-discord/raw/main/assets/params_example.png)
 
 # What's Next?
 Stable Discord currently includes an "ignore-users" feature intended to prevent select users from giving commands to the bot. I had two uses in mind for this. Firstly, it is a rudimentary sort of spam defense which may be easier than putting every user on the allowed list. Secondly, and most helpfully, it allows two users to run Stable Discord in the same Discord channel and prevent the bots from hitting a sort of infinite loop a la [Talking Carl](https://www.youtube.com/watch?v=t-7mQhSZRgM). 
