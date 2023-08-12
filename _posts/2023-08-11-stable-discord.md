@@ -1,9 +1,7 @@
-
 ---
 title: "Stable Discord"
 category: "Hobby Projects"
 ---
-
 Repository: [https://github.com/dankleeman/stable-discord](https://github.com/dankleeman/stable-discord)
 # Background
 Earlier this year I got really into the whirlwind of generative AI as stable diffusion made it a lot more accessible for consumer hardware. I had initially started out with Midjourney but between the cost of that service and the occasional service outage I wanted something that ran on hardware I controlled. Further, not all of my friends wanted to pay for Midjourney but I really enjoyed the collaborative aspect of the service. When Midjourney was making that one of their big selling points I was initially skeptical of how important it would be, but after just one evening of bouncing ideas off of my friends I was sold.
@@ -11,10 +9,25 @@ Earlier this year I got really into the whirlwind of generative AI as stable dif
 To solve this problem I started working on "Stable Discord" which is an implementation of stable diffusion that uses a Discord bot as a frontend.  I've been playtesting this tool with my friends and just finally put the finishing touches on it enough to justify a release v1.0. 
 
 # Project Overview
-For more of the specifics, I'll let the README.md and repository speak for itself because I strove for as much of a self-contained approach here as possible. If a user wants to make changes to the code I tried to make that simple but avoidable as possible. For any user who wants to just get started right away, they should have to change nothing but the config.toml constants. This includes a variety of behavior changes from the diffusion model using GPU or xformers to cosmetic things like emojis to use when responding to a user or setting the wake word.
+For more of the specifics, I'll let the README.md and repository speak for itself because I strove for as much of a self-contained approach here as possible. If a user wants to make changes to the code I tried to make that simple but avoidable as possible. For any user who wants to just get started right away, they should have to change nothing but the config.toml parameters other than adding the Discord API token. The default settings should cover the majority of users.
+
+However, this config.toml file includes a variety of behavior changes from the diffusion model using GPU or xformers to cosmetic things like emojis to use when responding to a user or setting the wake word.
 
 # Example Usage
+I think the example behavior section does a good job of showing the behavior: https://github.com/dankleeman/stable-discord#example-behavior
 
+The first basic example shows the request with the `/art` wake word and the emoji reactions the bot uses to acknowledge and communicate progress to the user. 
+
+![basic_example.png](https://github.com/dankleeman/stable-discord/blob/main/assets/basic_example.png)
+
+
+The second example shows what kind of results you can get with a more stylized prompt even with the default parameters.
+
+![long_prompt_example.png](https://github.com/dankleeman/stable-discord/raw/main/assets/long_prompt_example.png)
+
+The final example shows how the bot parses arguments in the style of command line commands to allow tweaking of parameters.
+
+![params_example.png](https://github.com/dankleeman/stable-discord/blob/main/assets/params_example.png)
 
 # What's Next?
 Stable Discord currently includes an "ignore-users" feature intended to prevent select users from giving commands to the bot. I had two uses in mind for this. Firstly, it is a rudimentary sort of spam defense which may be easier than putting every user on the allowed list. Secondly, and most helpfully, it allows two users to run Stable Discord in the same Discord channel and prevent the bots from hitting a sort of infinite loop a la [Talking Carl](https://www.youtube.com/watch?v=t-7mQhSZRgM). 
