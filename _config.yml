@@ -123,9 +123,9 @@ author:
     # - label: "Kaggle"
     #   icon: "fab fa-fw fa-kaggle"
     #   url: "https://www.kaggle.com/danielkleeman"
-    - label: "Project Euler"
-      icon: "fas fa-plus"
-      url: "https://projecteuler.net/progress=dankleeman"
+    # - label: "Project Euler"
+    #   icon: "fas fa-plus"
+    #   url: "https://projecteuler.net/progress=dankleeman"
 
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
